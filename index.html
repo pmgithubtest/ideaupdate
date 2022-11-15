@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="style.css" rel="stylesheet">
+<style>
+    body{
+        background-color: white;
+    }
+
+
+/*gif*/
+    .col-6 {
+      width:42%;
+      margin-right: 10px;
+      margin-left: 42px;
+    }
+    /*copyright*/
+
+    #uncopyright{
+   text-align: center;
+  background-color: black;
+    color: #FAFAFA;
+  
+    }
+
+    /* company info and logo*/
+.info{
+  margin-left: 500px;
+  text-size: small;
+  padding-top: 0px;
+  margin-top: 0px;
+  float: right;
+
+}
+    .logo{
+    width: 90px;
+    height: fit-content;
+    display: block;
+    margin-left: 325px;
+    margin-right: auto;
+    padding-top: 2px;
+  }
+.log img{
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+}
+
+/* images into link*/
+
+    .stretched-link{
+      width:232px;
+      height: 200px;
+      
+    
+    }
+
+    .carousel-cell-image {
+      display:block;
+  text-align: center;
+  height: 220px;
+  width: 220px;
+ 
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+    /*----5 images slider */
+    * { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 20%;
+  height: 200px;
+  margin-right: 10px;
+ 
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+/*1 image slider */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel1 {
+  background: #FAFAFA;
+  margin-bottom: 40px;
+}
+
+.carousel1-cell1 {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel1-cell1:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+
+</style>
+    <title>Home </title>
+</head>
+<body>
+  
+<!---- -->
+<section>
+  <div class="container-fluid ">
+    <div class="row ">
+      <div class="col-lg col-lg col-lg col-lg">
+        <!----side menu bar-->
+        <div class="sidebar-nav">
+
+          <nav class="navbar navbar-light  fixed-top">
+      
+             
+      
+                  <!-- Mobile Menu Toggle Button -->
+      
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      
+                      <span class="navbar-toggler-icon"></span>
+      
+                  </button>
+      
+      
+                  <!-- Menus List -->
+      
+                  <div class="bg-light offcanvas offcanvas-start shadow" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      
+                    <div class="offcanvas-body">
+      
+                          <ul class="navbar-nav">
+      
+                              <li><a href="#"> <span class="item-text">Home</span></a></li>
+                              <li><a href="#"><span class="item-text">About Us</span></a></li>
+                             <li><a href="Brand.html"><span class="item-text">Brands</span></a></li>
+                             <li><a href="#"><span class="item-text">Products</span></a></li>
+                             <li><a href="#"><span class="item-text">Services</span></a></li>
+                            <div class="btn-group">
+      
+                      <a href="#" class="dropdown-toggle text-white text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+      
+      
+                  </div>
+              </div>
+
+          </div>
+    
+      </div>
+      <div class="col-lg col-lg col-lg col-lg">
+        <!-----for logo on top -->
+        <div class="M">
+          <a class="L" href="#">
+            <img src="logo/3 idea logo.png" alt="3idea's logo"></a>
+        </div>
+      </div>
+      <div class="col-lg col-lg col-lg col-lg"></div>
+    </div>
+  </div>
+</section>
+
+
+    <!----navbar header -->
+    <section>
+     
+            <div class="row mb-0 mt-0 ">
+                <div class="col-lg col-lg col-lg col-lg"></div>
+                <div class="col-lg col-lg col-lg col-lg">
+                    <nav class="navbar navbar-expand-lg ">
+                        <div class="container-fluid">
+                          <a class="navbar-brand headerh1 pe-5" href="#">HOME</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item ">
+                                <a class="nav-link active headerh pe-5" aria-current="page" href="#">ABOUTUS</a>
+                              </li>
+                              <li class="nav-item pe-5">
+                                <a class="nav-link headerh" href="Brand.html">BRANDS</a>
+                              </li>
+                              <li class="nav-item pe-5">
+                                <a class="nav-link headerh" href="#">  PRODUCTS </a>
+                              </li>
+                              <li class="nav-item dropdown pe-5">
+                                <a class="nav-link dropdown-toggle headerh " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               SERVICES
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-lg col-lg col-lg col-lg"></div>
+   
+    </div>
+
+    </div>
+    </section>
+    <!----name -->
+    <div class="row bname">
+        <div class="col-lg col-lg col-lg col-lg"><p>Laser Engraves</p> </div>
+        <div class="col-lg col-lg col-lg col-lg"> <p>3D Printer</p></div>
+        <div class="col-lg col-lg col-lg col-lg"><p>3D Scanner</p></div>
+        <div class="col-lg col-lg col-lg col-lg"><p>3D Pen</p></div>
+        <div class="col-lg col-lg col-lg col-lg"><p>Robotics </p></div>
+        <div class="col-lg col-lg col-lg col-lg"><p>Food Printer</p></div>
+        <div class="col-lg col-lg col-lg col-lg"><p>3D Comsumables</p></div>
+        <div class="col-lg col-lg col-lg col-lg"><p>Accessories</p></div>
+        <div class="col-lg col-lg col-lg col-lg"><p>Spare Parts</p></div>
+        </div>
+
+
+    <!----slider images corosule-->
+    <div clas="container-fluid ">
+    <div class="row mb-5">
+      <div class="col-lg col-lg col-lg col-lg">
+    
+        <!-- Flickity HTML init -->
+        <div class="carousel carousel-main" data-flickity>
+
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+          <div class="carousel1-cell1"></div>
+        </div>
+        
+        
+        
+</div>
+</div>
+</div>
+
+<!----3 buttons -->
+<div class="container-fluid text-center mt-5 mb-5">
+  <div class="row gx-5 gx-lg-5 gx-xl-5 ">
+   
+    <div class="col-lg col-lg col-lg col-lg "><H5>SHOP BY PURPOSE</H5></div>
+   
+  </div>
+    <div class="row mb-5 gx-5 gx-lg-5 gx-xl-5 ">
+    
+        <div class="col-sm-12 col-md-12 col-lg-12 col-lg">
+          
+          <div class="Hbuttons">
+          <button class="pushableH me-5 mx-4 "><span class="frontH"><h6 class="textbtH">FOR HOBBYIST</h6></span></button>
+          <button class="pushableH me-5 mx-4"><span class="frontH"><h6 class="textbtH">FOR BUSINESS</h6></span></button>
+          <button class="pushableH me-5 mx-4"><span class="frontH"><h6 class="textbtH">FOR EDUCATOR</h6></span></button>
+         </div>
+        </div>
+        
+      
+        </div>
+    </div>
+    </div>
+
+
+    <!----9images of categories-->
+<section>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-12"><h5>SHOP BY CATEGORIES</h5></div>
+    </div>
+    <div class="row">
+      <div class="col-lg col-lg col-lg col-lg"><a href="LaserEngraves.html" class="stretched-link"><img class="img-fluid"src="img/Laser Engravers (18).png"></a></div>
+      <div class="col-lg col-lg col-lg col-lg"><a href="3D Printer.html" class="stretched-link"><img class="img-fluid"src="img/3d printers.png"></a></div>
+      <div class="col-lg col-lg col-lg col-lg"><a href="3Dscanner.html" class="stretched-link"><img class="img-fluid"src="img/3d scannars.png"></a></div>
+      <div class="col-lg col-lg col-lg col-lg"><a href="3D Printer.html" class="stretched-link"><img class="img-fluid"src="img/3d scannars.png"></a></div>
+      <div class="col-lg col-lg col-lg col-lg"><a href="Robotics.html" class="stretched-link"><img class="img-fluid"src="img/robotics (2).png"></a></div>
+      <div class="col-lg col-lg col-lg col-lg"><a href="LaserEngraves.html" class="stretched-link"><img class="img-fluid"src="img/Laser Engravers (18).png"></a></div>
+      <div class="col-lg col-lg col-lg col-lg"><a href="3D Printer.html" class="stretched-link"><img class="img-fluid"src="img/3d materials.png"></a></div>
+      <div class="col-lg col-lg col-lg col-lg"><a href="3D Printer.html" class="stretched-link"><img class="img-fluid"src="img/accessories (2).png"></a></div>
+      <div class="col-lg col-lg col-lg col-lg"><a href="3D Printer.html" class="stretched-link"><img class="img-fluid"src="img/spare parts.png"></a></div>
+    </div>
+  </div>
+</section>
+
+<!----trusted by -->
+<section>
+  <div class="container-fluid bestselling">
+    <div class="row mb-5 mt-5 my-2 mx-2 gx-lx-5 text-center">
+     <div class="col-sm-12 col-md-12 col-lg-12 col-12  ">
+      <h5 >TRUSTED BY</h5>
+
+      <!-- Flickity HTML init -->
+      <div class="carousel" data-flickity='{ "groupCells": 5 }'>
+      
+        <a href="3D Printer.html" class="stretched-link "><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link "><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        
+      </div>
+      
+      
+    </div>
+     
+  </div>
+</section>
+
+<!----Best selling products-->
+
+<section>
+  <div class="container-fluid bestselling">
+    <div class="row mb-5 mt-5 my-2 mx-2 gx-lx-5 text-center">
+     <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+      <h5 >BEST SELLING PRODUCTS</h5>
+
+<!-- Flickity HTML init -->
+<div class="carousel" data-flickity='{ "groupCells": 5 }'>
+      
+  <a href="3D Printer.html" class="stretched-link "><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link "><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+  
+</div>
+
+    </div>
+     
+  </div>
+</section>
+
+
+
+<!--HERE TO HELP AND UNLOCK BOX-vEDIOS---->
+<div class="container-fluid">
+<div class="row mb-3  ">
+  <div class="col-sm-6 col-md-6 col-lg-6 col-6 video  "> <img src="img/Membership Plan & Contact us(1).gif"> </div>
+  <div class="col-sm-6 col-md-6 col-lg-6 col-6 video  "> <img src="img/Membership Plan & Contact us (1).gif">  </div>
+
+
+</div>
+</div>
+
+<!-----3D Designs-->
+<div class="row mb-2 ">
+  <div class="col-sm-12 col-md-12 col-lg-12 col-12 ">
+<img class="design" src="img/3D Design.gif">
+  </div>
+
+</div>
+
+<!-----new arrival-->
+<section>
+  <div class="container-fluid bestselling">
+    <div class="row mb-5 mt-5 my-2 mx-2 gx-lx-5 text-center">
+     <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+      <h5 >NEW ARRIVAL</h5>
+
+      <!-- Flickity HTML init -->
+      <div class="carousel" data-flickity='{ "groupCells": 5 }'>
+      
+        <a href="3D Printer.html" class="stretched-link "><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link "><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        
+      </div>
+      
+      
+    </div>
+     
+  </div>
+</section>
+
+<!-----BUYING IS EASY BOX-->
+
+<div class="row  mt-5 mb-5 ">
+  <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+<div class="outer">
+  <img src="img/App banner with cursor(1).jpg">
+  <div class="inner">
+    <img src="img/App banner without cursor(1).gif">
+   
+  </div>
+
+</div>
+
+
+  </div>
+
+<!---googal play button -->
+<div class="row ">
+  <div class="col-lg col-lg col-lg col-lg ">
+  <div class="Google ">
+  <button class="pushable1 text-center">
+    <span class="front1">Google Play</span>
+  </button>
+  </div>
+  
+<!----BLOGS -->
+
+<section>
+  <div class="container-fluid bestselling">
+    <div class="row mb-5 mt-5 my-2 mx-2 gx-lx-5 text-center">
+     <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+      <h5 >BLOGS</h5>
+
+      <!-- Flickity HTML init -->
+      <div class="carousel" data-flickity='{ "groupCells": 5 }'>
+      
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link "><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        <a href="3D Printer.html" class="stretched-link"><img   class="carousel-cell-image  "  src="img/3d printers.png" ></a>
+        
+      </div>
+  </div>
+</section>
+
+<!----3colore footer image -->
+
+<div class="row">
+  <div class="col-sm-12 col-md-12 col-lg-12 col-12"><img class="img-fluid" src="img/footer.jpg"></div>
+</div>
+
+
+<!----logo and company info-->
+<div class="row">
+  <div class="col-sm-12 col-md-12 col-lg-12 col-12"><span><img class="logo" src="logo/3 idea logo.png">   <p class="info"> 3idea Technology is the fastest growing company in the space of distribution of cutting  edge  technology products.<br>
+    We are present on all the  the major ecommerce market places, have tie-ups with all the major goverment institutions,universities,collegesand a strong sub dealer and warehouse network to give our partner brands the visibility required in india.</p></span></div>
+
+</div>
+
+<!----Footer-->
+<footer  >
+  <div class="container mt-5   ">
+<div class="row ">
+  <div class="col-lg col-lg col-lg col-lg">
+<h5>QUICK LINKS</h5>
+<P><a href="">About Us</a><br>
+
+<a href="">Contact Us</a><br>
+<a href="">Blogs</a></P>
+  </div>
+  <div class="col-lg col-lg col-lg col-lg">
+    <h5>POLICIES</h5>
+<P><a href="">Terms and Conditions</a><br>
+<a href="">Privacy Policy</a><br>
+<a href="">FAQs</a></P>
+  </div>
+  <div class="col-lg col-lg col-lg col-lg">
+    <h5>SECURE PAYMENT OPTIONS</h5>
+  </div>
+  <div class="col-lg col-lg col-lg col-lg">
+    <h5>REACH OUT FOR SUPPORT</h5>
+    <P>Email:sales@3idea.in
+    <br>
+    Tel:(+91)-836-994-6747,+02266824647
+    <br>
+    Location:Lower Parel West,Mumbai,Maharashtra
+    </P>
+   
+</div>
+  </div>
+</footer>
+
+<div>
+  <div class="row" >
+    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+      
+        <p id="uncopyright">uncopyright &copy: 2022 3idea Technology All Right Reserved</p>
+    
+  </div>
+</div>
+
+</body>
+</html>
